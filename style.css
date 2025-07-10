@@ -78,7 +78,7 @@
   }
 
   body{
-    font-family: "Montserrat" , sans-serif;
+    font-family: "Montserrat";
     background: rgba(247, 246, 255, 1);
   }
 
@@ -111,7 +111,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
   }
 
   .logo-box-a{
@@ -163,6 +163,22 @@
     color: rgba(246, 250, 253, 1);
   }
   
-  
+  .frelance-section-textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 124px;
+  }
 
-  
+  .frelance-section-img{
+    margin-top: 30px;
+    width: 603px;
+    height: 630px;
+  }
+
+  .dva-klika{
+    max-width: 800px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 36px;
+  }
