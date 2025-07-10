@@ -212,3 +212,15 @@
     line-height: 100%;
     letter-spacing: 5%;
   }
+
+  .frelance-findbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .frelance-button{
+
+  }
