@@ -173,11 +173,11 @@
 
   .frelance-section-img{
     position: absolute;
-    top: 20px;
+    top: 5px;
     left: 600px;
     margin-top: 30px;
-    width: 603px;
-    height: 630px;
+    width: 580px;
+    height: 595px;
   }
 
   .dva-klika{
@@ -222,5 +222,179 @@
   }
 
   .frelance-button{
+    position: absolute;
+    top: 60px;
+    left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 140px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
 
+  .frelance-button2{
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgba(251, 164, 87, 1);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(246, 250, 253, 1);
+  }
+
+  .rubrik-textbox{
+    position: relative;
+  }
+
+  .Rubrib-textbox{
+    position: absolute;
+    top: 150px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(34, 34, 34, 1);
+  }
+
+  .category-firstbox{
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .text{
+    position: absolute;
+    top: 190px;
+    left: -10px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .razrob{
+    position: absolute;
+    top: 190px;
+    left: 160px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .design{
+    position: absolute;
+    top: 190px;
+    left: 294px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .audio{
+    position: absolute;
+    top: 620px;
+    left: 220px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .seo{
+    position: absolute;
+    top: 620px;
+    left: 400px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .Biznes{
+    position: absolute;
+    top: 675px;
+    left: 220px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .Sot{
+    position: absolute;
+    top: 675px;
+    left: 372px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(242, 240, 254, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(101, 96, 132, 1);
+  }
+
+  .Vse{
+    position: absolute;
+    top: 675px;
+    left: 542px;
+    padding: 15px 30px 16px;
+    border: 2px solid rgba(251, 164, 87, 1);
+    background: rgb(250, 244, 252);
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: rgba(251, 164, 87, 1);
   }
