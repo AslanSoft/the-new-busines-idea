@@ -1,0 +1,324 @@
+/* montserrat-100 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/montserrat-v30-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/montserrat-v30-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/montserrat-v30-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v30-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v30-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat-v30-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/montserrat-v30-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/montserrat-v30-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/montserrat-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgba(247, 246, 255, 1);
+}
+input,button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-box-ul{
+  width: 60%;
+  display: flex;
+  gap: 40px;
+}
+.logo-box-button-box{
+  display: flex;
+  gap: 30px;
+}
+.logo-box-button-box>.button1{
+  background: #F2F0FE;
+  border-radius: 50px;
+  padding: 10px 30px;
+  
+}
+
+.logo-box-button-box>.button2{
+  background: #1DBF73;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+  border: 1px solid white;
+}
+
+.logo-box-button-box>.button1:hover{
+  background: #1DBF73;
+  border: 1px solid white;
+  color: #fff;
+}
+.logo-box-button-box>.button2:hover{
+  background: #F2F0FE;
+  border: 1px solid #1DBF73;
+  color: #1DBF73;
+}
+
+.logo-box-a{
+  position: relative;
+}
+.logo-box-a::after{
+  content: "";
+  position:absolute;
+  top: 25px;
+  left: 0px;
+  width: 0;
+  height: 2px ;
+  background: #1DBF73;
+  transition: width 1s ease;
+}
+.logo-box-a:hover::after{
+  width: 100%;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+}
+.hero-container>.left{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.frelance-section-bbox{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.dva-klika{
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.dva-klika::after{
+  content: "два клика";
+  color: #1DBF73;
+}
+.frelance-findbox{
+  margin-top: 50px;
+  background: #F2F0FE;
+  padding: 2px 0px 2px 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.frelance-button2{
+  padding: 20px 50px;
+  background: #FBA457;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+}
+.frelance-findbox>input{
+  width: 70%;
+  color: rgb(96, 96, 96);
+}
+.frelance-findbox>input::placeholder{
+  color: rgba(90, 90, 90, 0.788);
+}
+
+.work-text{
+  margin-top: 30px;
+  max-width: 420px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #222222;
+  word-break: break-all;
+}
+
+.rubrik-textbox{
+  margin-top: 50px;
+}
+
+.Rubrib-textbox{
+  font-weight: 500;
+  font-size: 16px;
+  color: #222222;
+}
+
+.category-firstbox{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.frelance-category-box{
+  margin-top: 30px;
+}
+
+.text{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.razrob{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.design{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+.category-secondbox{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.audio{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.seo{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.category-threebox{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Biznes{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Sot{
+  padding: 10px 20px;
+  background: #F2F0FE;
+  border-radius: 50px;
+  color: #222222;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.Vse{
+  padding: 10px 20px;
+  background: white;
+  border-radius: 50px;
+  border: 1px solid #FBA457;
+  color: #FBA457;
+  font-weight: 400;
+  font-size: 14px;
+}
