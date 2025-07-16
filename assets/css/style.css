@@ -428,9 +428,9 @@ a {
   gap: 20px;
 }
 
-.log-in-page{
+.loginpage{
   max-width: 400px;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 30px;
   padding: 50px 80px 50px;
