@@ -1,2 +1,1 @@
-const signinButton = document.getElementById('signinButton');
-const buttoninline1 = document.getElementsByClassName('buttoninline1');
+let button2 = document.querySelector('.button')
