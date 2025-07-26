@@ -663,3 +663,64 @@ a {
   line-height: 100%;
   letter-spacing: 0%;
 }
+
+.worktap{
+  margin-top: 100px;
+}
+
+.workttap-textbox{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.worktap-h1{
+  font-weight: 600;
+  font-size: 24px;
+  color: #222222;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+
+.worktap-b{
+  font-weight: 400;
+  font-size: 16px;
+  color: #222222;
+  line-height: 100%;
+  letter-spacing: 2%;
+}
+
+.servicec-first{
+  width: 388px;
+  height: 178px;
+  margin-top: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 20px 20px 20px;
+  gap: 20px;
+}
+
+.uslugi{
+  font-weight: 600;
+  font-size: 18px;
+  color: #222222;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.supermarket{
+  font-weight: 400;
+  font-size: 14px;
+  color: #222222;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.servicec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
