@@ -773,7 +773,36 @@ a {
   gap: 60px;
 }
 
-.worktap-helper {
+.worktap-helper{
+  margin-top: 100px;
   background: #e0b310;
   background: radial-gradient(circle, rgba(224, 179, 16, 1) 0%, rgba(212, 148, 44, 1) 100%);
+  overflow: hidden;
+}
+
+.worktap-help-p{
+  margin-top: 50px;
+}
+
+.woktap-firs-class{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.worktap-first{
+  margin-top: 45px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background: rgba(246, 250, 253, 1);
+  border-radius: 20px;
+}
+
+.worktap-bbox-second{
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(34, 34, 34, 1);
 }
