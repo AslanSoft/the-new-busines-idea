@@ -774,6 +774,7 @@ a {
 }
 
 .worktap-helper{
+  position: relative;
   margin-top: 100px;
   background: #e0b310;
   background: radial-gradient(circle, rgba(224, 179, 16, 1) 0%, rgba(212, 148, 44, 1) 100%);
@@ -782,6 +783,9 @@ a {
 
 .worktap-help-p{
   margin-top: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(246, 250, 253, 1);
 }
 
 .woktap-firs-class{
@@ -805,4 +809,44 @@ a {
   font-weight: 400;
   font-size: 14px;
   color: rgba(34, 34, 34, 1);
+}
+
+.worktap-second{
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background: rgba(246, 250, 253, 1);
+  border-radius: 20px;
+}
+
+.worktap-third{
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background: rgba(246, 250, 253, 1);
+  border-radius: 20px;
+}
+
+.worktap-b-third{
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(246, 250, 253, 1);
+}
+
+
+.worktap-button{
+  margin-top: 10px;
+  max-width: 222px;
+  padding: 20px 10px;
+  background: rgba(94, 78, 219, 1);
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(246, 250, 253, 1);
+  cursor: pointer;
 }
